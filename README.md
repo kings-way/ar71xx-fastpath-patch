@@ -13,18 +13,17 @@
 
 ### 2. Apply the patch
 * For MIPS 24kc:
-	
-		cd lede
-		cp -r ../sfe_patch/patch_24kc/* ./
-		./patch_SFE.sh
-
+	```cd lede
+	cp -r ../sfe_patch/patch_24kc/* ./
+	./patch_SFE.sh
+	```
 
 * For MIPS 74kc:
-
-	
-		cd lede
-		cp -r ../sfe_patch/patch_74kc/* ./
-		./patch_SFE.sh
+	```	
+	cd lede
+	cp -r ../sfe_patch/patch_74kc/* ./
+	./patch_SFE.sh
+	```
 
 ### 3. Config & Compile
 Make sure you choose these
