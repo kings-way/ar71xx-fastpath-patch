@@ -42,7 +42,7 @@ Make sure you choose these
 	# make V=s -j1 with more verbose output for trouble shooting
 
 ## Refer
-* The Source of these patches
+* The source of these patches
 
 https://github.com/gwlim/mips24k-ar71xx-lede-patch
 
