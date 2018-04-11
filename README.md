@@ -15,16 +15,14 @@
 * For MIPS 24kc:
 	```
 	cd lede
-	cp -r ../sfe_patch/patch_24kc/* 
-	./
+	cp -r ../sfe_patch/patch_24kc/*  ./
 	./patch_SFE.sh
 	```
 
 * For MIPS 74kc:
 	```	
 	cd lede
-	cp -r ../sfe_patch/patch_74kc/* 
-	./
+	cp -r ../sfe_patch/patch_74kc/*  ./
 	./patch_SFE.sh
 	```
 
