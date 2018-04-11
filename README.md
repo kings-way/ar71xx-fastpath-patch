@@ -27,29 +27,41 @@
 		./patch_SFE.sh
 
 ### 3. Config & Compile
+Make sure you choose these
+> Kernel Modules > Network Support > kmod-fast-classifier
+
+> Kernel Modules > Network Support > kmod-shortcut-fe or 
+
+> Kernel Modules > Network Support > kmod-shortcut-fe-cm
+
+> Kernel Modules > Wireless Drivers > kmod-owl-loader  ==> For nand device with Atheros PCI(e) Wifi chip
 
 	make menuconfig
-	# Make sure you choose these
-	# Kernel Modules > Network Support > kmod-fast-classifier
-	# Kernel Modules > Network Support > kmod-shortcut-fe or 
-	# Kernel Modules > Network Support > kmod-shortcut-fe-cm
-	# Kernel Modules > Wireless Drivers > kmod-owl-loader  ==> For nand device with Atheros PCI(e) Wifi chip
 	
 	make -j[XX]
 	# make V=s -j1 with more verbose output for trouble shooting
 
 ## Refer
 * The Source of these patches
+
 https://github.com/gwlim/mips24k-ar71xx-lede-patch
+
 https://github.com/gwlim/mips74k-ar71xx-lede-patch
+
 https://github.com/gwlim/mips24k-ar71xx-lede-patch/pull/13
+
 https://github.com/gwlim/mips74k-ar71xx-lede-patch/pull/25
 
 
 * Other helpful information
+
 https://github.com/dissent1/sfe-src
+
 https://github.com/openwrt-stuff/qca
+
 https://github.com/lede-project/source/pull/1269
+
 https://forum.lede-project.org/t/qualcomm-fast-path-for-lede/4582/602
+
 https://lists.infradead.org/pipermail/lede-commits/2016-September/000816.html
 
