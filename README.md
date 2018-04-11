@@ -61,7 +61,9 @@ https://github.com/openwrt-stuff/qca
 
 https://github.com/lede-project/source/pull/1269
 
-https://forum.lede-project.org/t/qualcomm-fast-path-for-lede/4582/602
+https://forum.lede-project.org/t/hardware-nat-for-lede/1094
+
+https://forum.lede-project.org/t/qualcomm-fast-path-for-lede/4582
 
 https://lists.infradead.org/pipermail/lede-commits/2016-September/000816.html
 
